@@ -81,5 +81,40 @@ public class HelloWorld {
             System.out.print(i + "" + j + " ");
             i = i + 1;
         }
+        int k = 0;
+        while (k < 4) {
+            System.out.print("a");
+            if (k < 1) {
+                System.out.print(" ");
+            }
+            System.out.print("n");
+            if (k > 1) {
+                System.out.print(" oyster");
+                k = k + 2;
+            }
+            if (k == 1) {
+                System.out.print("noys");
+            }
+            if (k < 1) {
+                System.out.print("oise");
+            }
+            System.out.println("");
+            k = k + 1;
+        }
+
+        int l = 0;
+        while (l < 10) {
+            l = l + 1;
+            if (l > 7) {
+                System.out.println("big l");
+            }
+        }
+        int m = 0;
+        while (m > 1) {
+            m = m - 1;
+            if (m < 3) {
+                System.out.println("small m");
+            }
+        }
     }
 }
