@@ -32,9 +32,54 @@ public class HelloWorld {
             x = x - 1;
             System.out.print("-");
             if (x == 1) {
-                System.out.print("d");
+                System.out.println("d");
                 x = x - 1;
             }
+        }
+        int a = 0;
+        int b = 0;
+        while (a < 5) {
+            b = a - b;
+            System.out.println(a + "" + b + " ");
+            a = a + 1;
+        }
+        int c = 0;
+        int d = 0;
+        while (c < 5) {
+            d = d + c;
+            System.out.print(c + "" + d + " ");
+            c = c + 1;
+        }
+        int e = 0;
+        int f = 0;
+        while (e < 5) {
+            f = f + 2;
+            if (f > 4) {
+                f = f - 1;
+            }
+            System.out.println(e + "" + f + " ");
+            e = e + 1;
+        }
+        int g = 0;
+        int h = 0;
+        while (g < 5) {
+            g = g + 1;
+            h = h + g;
+            System.out.print(g + "" + h + " ");
+            g = g + 1;
+        }
+        int i = 0;
+        int j = 0;
+        while (i < 5) {
+            if (j < 5) {
+                i = i + 1;
+                if (j < 3) {
+                    i = i - 1;
+                }
+            }
+            j = j + 2;
+            System.out.print(i + "" + j + " ");
+            i = i + 1;
         }
     }
 }
