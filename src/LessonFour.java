@@ -1,3 +1,5 @@
+// While loops. Examples including how to calculate PI with a while loop.
+//Do / for loop.
 import java.util.Scanner;
 
 public class LessonFour {
