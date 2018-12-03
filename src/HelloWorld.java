@@ -118,3 +118,6 @@ public class HelloWorld {
         }
     }
 }
+//instance variables of a tv
+//turns off and on, controls volume and channels
+//setOff, setOn, setVolume, setChannel
